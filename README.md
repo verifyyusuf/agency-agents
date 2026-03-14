@@ -1,6 +1,6 @@
-# 🎭 The Agency: AI Specialists Ready to Transform Your Workflow
+# 🎭 The Agency: İş Akışınızı Dönüştürmeye Hazır Yapay Zeka Uzmanları
 
-> **A complete AI agency at your fingertips** - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
+> **Parmaklarınızın ucunda eksiksiz bir yapay zeka ajansı** - Frontend sihirbazlarından Reddit topluluk ninjalarına, eğlence enjektörlerinden gerçeklik denetçilerine. Her agent, kişiliği, süreçleri ve kanıtlanmış çıktıları olan uzmanlaşmış bir uzmandır.
 
 [![GitHub stars](https://img.shields.io/github/stars/msitarzewski/agency-agents?style=social)](https://github.com/msitarzewski/agency-agents)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,69 +9,69 @@
 
 ---
 
-## 🚀 What Is This?
+## 🚀 Bu Nedir?
 
-Born from a Reddit thread and months of iteration, **The Agency** is a growing collection of meticulously crafted AI agent personalities. Each agent is:
+Bir Reddit başlığından doğan ve aylarca süren iterasyonlarla geliştirilen **The Agency**, titizlikle hazırlanmış yapay zeka agent kişiliklerinden oluşan büyüyen bir koleksiyondur. Her agent:
 
-- **🎯 Specialized**: Deep expertise in their domain (not generic prompt templates)
-- **🧠 Personality-Driven**: Unique voice, communication style, and approach
-- **📋 Deliverable-Focused**: Real code, processes, and measurable outcomes
-- **✅ Production-Ready**: Battle-tested workflows and success metrics
+- **🎯 Uzmanlaşmış**: Kendi alanında derin uzmanlık (jenerik prompt şablonları değil)
+- **🧠 Kişilik Odaklı**: Benzersiz ses tonu, iletişim tarzı ve yaklaşım
+- **📋 Çıktı Odaklı**: Gerçek kod, süreçler ve ölçülebilir sonuçlar
+- **✅ Üretime Hazır**: Savaşta test edilmiş iş akışları ve başarı metrikleri
 
-**Think of it as**: Assembling your dream team, except they're AI specialists who never sleep, never complain, and always deliver.
+**Şöyle düşünün**: Hayalinizdeki takımı kurmak, ancak onlar hiç uyumayan, hiç şikayet etmeyen ve her zaman teslim eden yapay zeka uzmanları.
 
 ---
 
-## ⚡ Quick Start
+## ⚡ Hızlı Başlangıç
 
-### Option 1: Use with Claude Code (Recommended)
+### Seçenek 1: Claude Code ile Kullanım (Önerilen)
 
 ```bash
-# Copy agents to your Claude Code directory
+# Agent'ları Claude Code dizininize kopyalayın
 cp -r agency-agents/* ~/.claude/agents/
 
-# Now activate any agent in your Claude Code sessions:
-# "Hey Claude, activate Frontend Developer mode and help me build a React component"
+# Artık Claude Code oturumlarınızda herhangi bir agent'ı etkinleştirin:
+# "Hey Claude, Frontend Developer modunu etkinleştir ve bir React bileşeni oluşturmama yardım et"
 ```
 
-### Option 2: Use as Reference
+### Seçenek 2: Referans Olarak Kullanım
 
-Each agent file contains:
-- Identity & personality traits
-- Core mission & workflows
-- Technical deliverables with code examples
-- Success metrics & communication style
+Her agent dosyası şunları içerir:
+- Kimlik ve kişilik özellikleri
+- Temel misyon ve iş akışları
+- Kod örnekleriyle teknik çıktılar
+- Başarı metrikleri ve iletişim tarzı
 
-Browse the agents below and copy/adapt the ones you need!
+Aşağıdaki agent'lara göz atın ve ihtiyacınız olanları kopyalayıp uyarlayın!
 
-### Option 3: Use with Other Tools (Cursor, Aider, Windsurf, Gemini CLI, OpenCode)
+### Seçenek 3: Diğer Araçlarla Kullanım (Cursor, Aider, Windsurf, Gemini CLI, OpenCode)
 
 ```bash
-# Step 1 -- generate integration files for all supported tools
+# Adım 1 -- desteklenen tüm araçlar için entegrasyon dosyalarını oluşturun
 ./scripts/convert.sh
 
-# Step 2 -- install interactively (auto-detects what you have installed)
+# Adım 2 -- etkileşimli kurulum (yüklü araçları otomatik algılar)
 ./scripts/install.sh
 
-# Or target a specific tool directly
+# Veya doğrudan belirli bir aracı hedefleyin
 ./scripts/install.sh --tool cursor
 ./scripts/install.sh --tool copilot
 ./scripts/install.sh --tool aider
 ./scripts/install.sh --tool windsurf
 ```
 
-See the [Multi-Tool Integrations](#-multi-tool-integrations) section below for full details.
+Tüm ayrıntılar için aşağıdaki [Çoklu Araç Entegrasyonları](#-çoklu-araç-entegrasyonları) bölümüne bakın.
 
 ---
 
-## 🎨 The Agency Roster
+## 🎨 Ajans Kadrosu
 
-### 💻 Engineering Division
+### 💻 Mühendislik Bölümü
 
-Building the future, one commit at a time.
+Geleceği inşa ediyoruz, her seferinde bir commit.
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 🎨 [Frontend Developer](engineering/engineering-frontend-developer.md) | React/Vue/Angular, UI implementation, performance | Modern web apps, pixel-perfect UIs, Core Web Vitals optimization |
 | 🏗️ [Backend Architect](engineering/engineering-backend-architect.md) | API design, database architecture, scalability | Server-side systems, microservices, cloud infrastructure |
 | 📱 [Mobile App Builder](engineering/engineering-mobile-app-builder.md) | iOS/Android, React Native, Flutter | Native and cross-platform mobile applications |
@@ -96,12 +96,12 @@ Building the future, one commit at a time.
 | 🔧 [Data Engineer](engineering/engineering-data-engineer.md) | Data pipelines, lakehouse architecture, ETL/ELT | Building reliable data infrastructure and warehousing |
 | 🔗 [Feishu Integration Developer](engineering/engineering-feishu-integration-developer.md) | Feishu/Lark Open Platform, bots, workflows | Building integrations for the Feishu ecosystem |
 
-### 🎨 Design Division
+### 🎨 Tasarım Bölümü
 
-Making it beautiful, usable, and delightful.
+Güzel, kullanılabilir ve keyifli hale getiriyoruz.
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 🎯 [UI Designer](design/design-ui-designer.md) | Visual design, component libraries, design systems | Interface creation, brand consistency, component design |
 | 🔍 [UX Researcher](design/design-ux-researcher.md) | User testing, behavior analysis, research | Understanding users, usability testing, design insights |
 | 🏛️ [UX Architect](design/design-ux-architect.md) | Technical architecture, CSS systems, implementation | Developer-friendly foundations, implementation guidance |
@@ -111,12 +111,12 @@ Making it beautiful, usable, and delightful.
 | 📷 [Image Prompt Engineer](design/design-image-prompt-engineer.md) | AI image generation prompts, photography | Photography prompts for Midjourney, DALL-E, Stable Diffusion |
 | 🌈 [Inclusive Visuals Specialist](design/design-inclusive-visuals-specialist.md) | Representation, bias mitigation, authentic imagery | Generating culturally accurate AI images and video |
 
-### 💰 Paid Media Division
+### 💰 Ücretli Medya Bölümü
 
-Turning ad spend into measurable business outcomes.
+Reklam harcamalarını ölçülebilir iş sonuçlarına dönüştürüyoruz.
 
-| Agent | Specialty | When to Use |
-| --- | --- | --- |
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 💰 [PPC Campaign Strategist](paid-media/paid-media-ppc-strategist.md) | Google/Microsoft/Amazon Ads, account architecture, bidding | Account buildouts, budget allocation, scaling, performance diagnosis |
 | 🔍 [Search Query Analyst](paid-media/paid-media-search-query-analyst.md) | Search term analysis, negative keywords, intent mapping | Query audits, wasted spend elimination, keyword discovery |
 | 📋 [Paid Media Auditor](paid-media/paid-media-auditor.md) | 200+ point account audits, competitive analysis | Account takeovers, quarterly reviews, competitive pitches |
@@ -125,12 +125,12 @@ Turning ad spend into measurable business outcomes.
 | 📺 [Programmatic & Display Buyer](paid-media/paid-media-programmatic-buyer.md) | GDN, DSPs, partner media, ABM display | Display planning, partner outreach, ABM programs |
 | 📱 [Paid Social Strategist](paid-media/paid-media-paid-social-strategist.md) | Meta, LinkedIn, TikTok, cross-platform social | Social ad programs, platform selection, audience strategy |
 
-### 💼 Sales Division
+### 💼 Satış Bölümü
 
-Turning pipeline into revenue through craft, not CRM busywork.
+Pipeline'ı CRM angaryasıyla değil, ustalıkla gelire dönüştürüyoruz.
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 🎯 [Outbound Strategist](sales/sales-outbound-strategist.md) | Signal-based prospecting, multi-channel sequences, ICP targeting | Building pipeline through research-driven outreach, not volume |
 | 🔍 [Discovery Coach](sales/sales-discovery-coach.md) | SPIN, Gap Selling, Sandler — question design and call structure | Preparing for discovery calls, qualifying opportunities, coaching reps |
 | ♟️ [Deal Strategist](sales/sales-deal-strategist.md) | MEDDPICC qualification, competitive positioning, win planning | Scoring deals, exposing pipeline risk, building win strategies |
@@ -140,12 +140,12 @@ Turning pipeline into revenue through craft, not CRM busywork.
 | 🗺️ [Account Strategist](sales/sales-account-strategist.md) | Land-and-expand, QBRs, stakeholder mapping | Post-sale expansion, account planning, NRR growth |
 | 🏋️ [Sales Coach](sales/sales-coach.md) | Rep development, call coaching, pipeline review facilitation | Making every rep and every deal better through structured coaching |
 
-### 📢 Marketing Division
+### 📢 Pazarlama Bölümü
 
-Growing your audience, one authentic interaction at a time.
+Kitlenizi büyütüyoruz, her seferinde otantik bir etkileşimle.
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 🚀 [Growth Hacker](marketing/marketing-growth-hacker.md) | Rapid user acquisition, viral loops, experiments | Explosive growth, user acquisition, conversion optimization |
 | 📝 [Content Creator](marketing/marketing-content-creator.md) | Multi-platform content, editorial calendars | Content strategy, copywriting, brand storytelling |
 | 🐦 [Twitter Engager](marketing/marketing-twitter-engager.md) | Real-time engagement, thought leadership | Twitter strategy, LinkedIn campaigns, professional social |
@@ -173,23 +173,23 @@ Growing your audience, one authentic interaction at a time.
 | 🎬 [Short-Video Editing Coach](marketing/marketing-short-video-editing-coach.md) | Post-production, editing workflows, platform specs | Hands-on short-video editing training and optimization |
 | 🔥 [Weibo Strategist](marketing/marketing-weibo-strategist.md) | Sina Weibo, trending topics, fan engagement | Full-spectrum Weibo operations and growth |
 
-### 📊 Product Division
+### 📊 Ürün Bölümü
 
-Building the right thing at the right time.
+Doğru zamanda doğru şeyi inşa ediyoruz.
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 🎯 [Sprint Prioritizer](product/product-sprint-prioritizer.md) | Agile planning, feature prioritization | Sprint planning, resource allocation, backlog management |
 | 🔍 [Trend Researcher](product/product-trend-researcher.md) | Market intelligence, competitive analysis | Market research, opportunity assessment, trend identification |
 | 💬 [Feedback Synthesizer](product/product-feedback-synthesizer.md) | User feedback analysis, insights extraction | Feedback analysis, user insights, product priorities |
 | 🧠 [Behavioral Nudge Engine](product/product-behavioral-nudge-engine.md) | Behavioral psychology, nudge design, engagement | Maximizing user motivation through behavioral science |
 
-### 🎬 Project Management Division
+### 🎬 Proje Yönetimi Bölümü
 
-Keeping the trains running on time (and under budget).
+Trenlerin zamanında (ve bütçe dahilinde) çalışmasını sağlıyoruz.
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 🎬 [Studio Producer](project-management/project-management-studio-producer.md) | High-level orchestration, portfolio management | Multi-project oversight, strategic alignment, resource allocation |
 | 🐑 [Project Shepherd](project-management/project-management-project-shepherd.md) | Cross-functional coordination, timeline management | End-to-end project coordination, stakeholder management |
 | ⚙️ [Studio Operations](project-management/project-management-studio-operations.md) | Day-to-day efficiency, process optimization | Operational excellence, team support, productivity |
@@ -197,12 +197,12 @@ Keeping the trains running on time (and under budget).
 | 👔 [Senior Project Manager](project-management/project-manager-senior.md) | Realistic scoping, task conversion | Converting specs to tasks, scope management |
 | 📋 [Jira Workflow Steward](project-management/project-management-jira-workflow-steward.md) | Git workflow, branch strategy, traceability | Enforcing Jira-linked Git discipline and delivery |
 
-### 🧪 Testing Division
+### 🧪 Test Bölümü
 
-Breaking things so users don't have to.
+Kullanıcılar yaşamasın diye biz kırıyoruz.
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 📸 [Evidence Collector](testing/testing-evidence-collector.md) | Screenshot-based QA, visual proof | UI testing, visual verification, bug documentation |
 | 🔍 [Reality Checker](testing/testing-reality-checker.md) | Evidence-based certification, quality gates | Production readiness, quality approval, release certification |
 | 📊 [Test Results Analyzer](testing/testing-test-results-analyzer.md) | Test evaluation, metrics analysis | Test output analysis, quality insights, coverage reporting |
@@ -212,12 +212,12 @@ Breaking things so users don't have to.
 | 🔄 [Workflow Optimizer](testing/testing-workflow-optimizer.md) | Process analysis, workflow improvement | Process optimization, efficiency gains, automation opportunities |
 | ♿ [Accessibility Auditor](testing/testing-accessibility-auditor.md) | WCAG auditing, assistive technology testing | Accessibility compliance, screen reader testing, inclusive design verification |
 
-### 🛟 Support Division
+### 🛟 Destek Bölümü
 
-The backbone of the operation.
+Operasyonun bel kemiği.
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 💬 [Support Responder](support/support-support-responder.md) | Customer service, issue resolution | Customer support, user experience, support operations |
 | 📊 [Analytics Reporter](support/support-analytics-reporter.md) | Data analysis, dashboards, insights | Business intelligence, KPI tracking, data visualization |
 | 💰 [Finance Tracker](support/support-finance-tracker.md) | Financial planning, budget management | Financial analysis, cash flow, business performance |
@@ -225,12 +225,12 @@ The backbone of the operation.
 | ⚖️ [Legal Compliance Checker](support/support-legal-compliance-checker.md) | Compliance, regulations, legal review | Legal compliance, regulatory requirements, risk management |
 | 📑 [Executive Summary Generator](support/support-executive-summary-generator.md) | C-suite communication, strategic summaries | Executive reporting, strategic communication, decision support |
 
-### 🥽 Spatial Computing Division
+### 🥽 Uzamsal Bilişim Bölümü
 
-Building the immersive future.
+Sürükleyici geleceği inşa ediyoruz.
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 🏗️ [XR Interface Architect](spatial-computing/xr-interface-architect.md) | Spatial interaction design, immersive UX | AR/VR/XR interface design, spatial computing UX |
 | 💻 [macOS Spatial/Metal Engineer](spatial-computing/macos-spatial-metal-engineer.md) | Swift, Metal, high-performance 3D | macOS spatial computing, Vision Pro native apps |
 | 🌐 [XR Immersive Developer](spatial-computing/xr-immersive-developer.md) | WebXR, browser-based AR/VR | Browser-based immersive experiences, WebXR apps |
@@ -238,12 +238,12 @@ Building the immersive future.
 | 🍎 [visionOS Spatial Engineer](spatial-computing/visionos-spatial-engineer.md) | Apple Vision Pro development | Vision Pro apps, spatial computing experiences |
 | 🔌 [Terminal Integration Specialist](spatial-computing/terminal-integration-specialist.md) | Terminal integration, command-line tools | CLI tools, terminal workflows, developer tools |
 
-### 🎯 Specialized Division
+### 🎯 Özel Uzmanlık Bölümü
 
-The unique specialists who don't fit in a box.
+Kalıplara sığmayan benzersiz uzmanlar.
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 🎭 [Agents Orchestrator](specialized/agents-orchestrator.md) | Multi-agent coordination, workflow management | Complex projects requiring multiple agent coordination |
 | 🔍 [LSP/Index Engineer](specialized/lsp-index-engineer.md) | Language Server Protocol, code intelligence | Code intelligence systems, LSP implementation, semantic indexing |
 | 📥 [Sales Data Extraction Agent](specialized/sales-data-extraction-agent.md) | Excel monitoring, sales metric extraction | Sales data ingestion, MTD/YTD/Year End metrics |
@@ -268,14 +268,14 @@ The unique specialists who don't fit in a box.
 | 🎓 [Study Abroad Advisor](specialized/study-abroad-advisor.md) | International education, application planning | Study abroad planning across US, UK, Canada, Australia |
 | 🔗 [Supply Chain Strategist](specialized/supply-chain-strategist.md) | Supply chain management, procurement strategy | Supply chain optimization and procurement planning |
 
-### 🎮 Game Development Division
+### 🎮 Oyun Geliştirme Bölümü
 
-Building worlds, systems, and experiences across every major engine.
+Tüm büyük motorlarda dünyalar, sistemler ve deneyimler inşa ediyoruz.
 
-#### Cross-Engine Agents (Engine-Agnostic)
+#### Motor Bağımsız Agent'lar
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 🎯 [Game Designer](game-development/game-designer.md) | Systems design, GDD authorship, economy balancing, gameplay loops | Designing game mechanics, progression systems, writing design documents |
 | 🗺️ [Level Designer](game-development/level-designer.md) | Layout theory, pacing, encounter design, environmental storytelling | Building levels, designing encounter flow, spatial narrative |
 | 🎨 [Technical Artist](game-development/technical-artist.md) | Shaders, VFX, LOD pipeline, art-to-engine optimization | Bridging art and engineering, shader authoring, performance-safe asset pipelines |
@@ -284,8 +284,8 @@ Building worlds, systems, and experiences across every major engine.
 
 #### Unity
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 🏗️ [Unity Architect](game-development/unity/unity-architect.md) | ScriptableObjects, data-driven modularity, DOTS/ECS | Large-scale Unity projects, data-driven system design, ECS performance work |
 | ✨ [Unity Shader Graph Artist](game-development/unity/unity-shader-graph-artist.md) | Shader Graph, HLSL, URP/HDRP, Renderer Features | Custom Unity materials, VFX shaders, post-processing passes |
 | 🌐 [Unity Multiplayer Engineer](game-development/unity/unity-multiplayer-engineer.md) | Netcode for GameObjects, Unity Relay/Lobby, server authority, prediction | Online Unity games, client prediction, Unity Gaming Services integration |
@@ -293,8 +293,8 @@ Building worlds, systems, and experiences across every major engine.
 
 #### Unreal Engine
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | ⚙️ [Unreal Systems Engineer](game-development/unreal-engine/unreal-systems-engineer.md) | C++/Blueprint hybrid, GAS, Nanite constraints, memory management | Complex Unreal gameplay systems, Gameplay Ability System, engine-level C++ |
 | 🎨 [Unreal Technical Artist](game-development/unreal-engine/unreal-technical-artist.md) | Material Editor, Niagara, PCG, Substrate | Unreal materials, Niagara VFX, procedural content generation |
 | 🌐 [Unreal Multiplayer Architect](game-development/unreal-engine/unreal-multiplayer-architect.md) | Actor replication, GameMode/GameState hierarchy, dedicated server | Unreal online games, replication graphs, server authoritative Unreal |
@@ -302,228 +302,228 @@ Building worlds, systems, and experiences across every major engine.
 
 #### Godot
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 📜 [Godot Gameplay Scripter](game-development/godot/godot-gameplay-scripter.md) | GDScript 2.0, signals, composition, static typing | Godot gameplay systems, scene composition, performance-conscious GDScript |
 | 🌐 [Godot Multiplayer Engineer](game-development/godot/godot-multiplayer-engineer.md) | MultiplayerAPI, ENet/WebRTC, RPCs, authority model | Online Godot games, scene replication, server-authoritative Godot |
 | ✨ [Godot Shader Developer](game-development/godot/godot-shader-developer.md) | Godot shading language, VisualShader, RenderingDevice | Custom Godot materials, 2D/3D effects, post-processing, compute shaders |
 
 #### Blender
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | 🧩 [Blender Addon Engineer](game-development/blender/blender-addon-engineer.md) | Blender Python (`bpy`), custom operators/panels, asset validators, exporters, pipeline automation | Building Blender add-ons, asset prep tools, export workflows, and DCC pipeline automation |
 
 #### Roblox Studio
 
-| Agent | Specialty | When to Use |
-|-------|-----------|-------------|
+| Agent | Uzmanlık | Ne Zaman Kullanılır |
+|-------|----------|---------------------|
 | ⚙️ [Roblox Systems Scripter](game-development/roblox-studio/roblox-systems-scripter.md) | Luau, RemoteEvents/Functions, DataStore, server-authoritative module architecture | Building secure Roblox game systems, client-server communication, data persistence |
 | 🎯 [Roblox Experience Designer](game-development/roblox-studio/roblox-experience-designer.md) | Engagement loops, monetization, D1/D7 retention, onboarding flow | Designing Roblox game loops, Game Passes, daily rewards, player retention |
 | 👗 [Roblox Avatar Creator](game-development/roblox-studio/roblox-avatar-creator.md) | UGC pipeline, accessory rigging, Creator Marketplace submission | Roblox UGC items, HumanoidDescription customization, in-experience avatar shops |
 
 ---
 
-## 🎯 Real-World Use Cases
+## 🎯 Gerçek Dünya Kullanım Senaryoları
 
-### Scenario 1: Building a Startup MVP
+### Senaryo 1: Startup MVP Oluşturma
 
-**Your Team**:
-1. 🎨 **Frontend Developer** - Build the React app
-2. 🏗️ **Backend Architect** - Design the API and database
-3. 🚀 **Growth Hacker** - Plan user acquisition
-4. ⚡ **Rapid Prototyper** - Fast iteration cycles
-5. 🔍 **Reality Checker** - Ensure quality before launch
+**Takımınız**:
+1. 🎨 **Frontend Developer** - React uygulamasını oluştur
+2. 🏗️ **Backend Architect** - API ve veritabanını tasarla
+3. 🚀 **Growth Hacker** - Kullanıcı kazanımını planla
+4. ⚡ **Rapid Prototyper** - Hızlı iterasyon döngüleri
+5. 🔍 **Reality Checker** - Lansmandan önce kaliteyi garanti et
 
-**Result**: Ship faster with specialized expertise at every stage.
-
----
-
-### Scenario 2: Marketing Campaign Launch
-
-**Your Team**:
-1. 📝 **Content Creator** - Develop campaign content
-2. 🐦 **Twitter Engager** - Twitter strategy and execution
-3. 📸 **Instagram Curator** - Visual content and stories
-4. 🤝 **Reddit Community Builder** - Authentic community engagement
-5. 📊 **Analytics Reporter** - Track and optimize performance
-
-**Result**: Multi-channel coordinated campaign with platform-specific expertise.
+**Sonuç**: Her aşamada uzmanlaşmış bilgiyle daha hızlı teslimat.
 
 ---
 
-### Scenario 3: Enterprise Feature Development
+### Senaryo 2: Pazarlama Kampanyası Lansmanı
 
-**Your Team**:
-1. 👔 **Senior Project Manager** - Scope and task planning
-2. 💎 **Senior Developer** - Complex implementation
-3. 🎨 **UI Designer** - Design system and components
-4. 🧪 **Experiment Tracker** - A/B test planning
-5. 📸 **Evidence Collector** - Quality verification
-6. 🔍 **Reality Checker** - Production readiness
+**Takımınız**:
+1. 📝 **Content Creator** - Kampanya içeriği geliştir
+2. 🐦 **Twitter Engager** - Twitter stratejisi ve uygulaması
+3. 📸 **Instagram Curator** - Görsel içerik ve hikayeler
+4. 🤝 **Reddit Community Builder** - Otantik topluluk etkileşimi
+5. 📊 **Analytics Reporter** - Performansı takip et ve optimize et
 
-**Result**: Enterprise-grade delivery with quality gates and documentation.
-
----
-
-### Scenario 5: Paid Media Account Takeover
-
-**Your Team**:
-
-1. 📋 **Paid Media Auditor** - Comprehensive account assessment
-2. 📡 **Tracking & Measurement Specialist** - Verify conversion tracking accuracy
-3. 💰 **PPC Campaign Strategist** - Redesign account architecture
-4. 🔍 **Search Query Analyst** - Clean up wasted spend from search terms
-5. ✍️ **Ad Creative Strategist** - Refresh all ad copy and extensions
-6. 📊 **Analytics Reporter** (Support Division) - Build reporting dashboards
-
-**Result**: Systematic account takeover with tracking verified, waste eliminated, structure optimized, and creative refreshed — all within the first 30 days.
+**Sonuç**: Platforma özel uzmanlıkla çok kanallı koordineli kampanya.
 
 ---
 
-### Scenario 4: Full Agency Product Discovery
+### Senaryo 3: Kurumsal Özellik Geliştirme
 
-**Your Team**: All 8 divisions working in parallel on a single mission.
+**Takımınız**:
+1. 👔 **Senior Project Manager** - Kapsam ve görev planlaması
+2. 💎 **Senior Developer** - Karmaşık implementasyon
+3. 🎨 **UI Designer** - Tasarım sistemi ve bileşenler
+4. 🧪 **Experiment Tracker** - A/B test planlaması
+5. 📸 **Evidence Collector** - Kalite doğrulama
+6. 🔍 **Reality Checker** - Üretime hazırlık
 
-See the **[Nexus Spatial Discovery Exercise](examples/nexus-spatial-discovery.md)** -- a complete example where 8 agents (Product Trend Researcher, Backend Architect, Brand Guardian, Growth Hacker, Support Responder, UX Researcher, Project Shepherd, and XR Interface Architect) were deployed simultaneously to evaluate a software opportunity and produce a unified product plan covering market validation, technical architecture, brand strategy, go-to-market, support systems, UX research, project execution, and spatial UI design.
-
-**Result**: Comprehensive, cross-functional product blueprint produced in a single session. [More examples](examples/).
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-### Add a New Agent
-
-1. Fork the repository
-2. Create a new agent file in the appropriate category
-3. Follow the agent template structure:
-   - Frontmatter with name, description, color
-   - Identity & Memory section
-   - Core Mission
-   - Critical Rules (domain-specific)
-   - Technical Deliverables with examples
-   - Workflow Process
-   - Success Metrics
-4. Submit a PR with your agent
-
-### Improve Existing Agents
-
-- Add real-world examples
-- Enhance code samples
-- Update success metrics
-- Improve workflows
-
-### Share Your Success Stories
-
-Have you used these agents successfully? Share your story in the [Discussions](https://github.com/msitarzewski/agency-agents/discussions)!
+**Sonuç**: Kalite kapıları ve dokümantasyonla kurumsal düzeyde teslimat.
 
 ---
 
-## 📖 Agent Design Philosophy
+### Senaryo 5: Ücretli Medya Hesap Devralma
 
-Each agent is designed with:
+**Takımınız**:
 
-1. **🎭 Strong Personality**: Not generic templates - real character and voice
-2. **📋 Clear Deliverables**: Concrete outputs, not vague guidance
-3. **✅ Success Metrics**: Measurable outcomes and quality standards
-4. **🔄 Proven Workflows**: Step-by-step processes that work
-5. **💡 Learning Memory**: Pattern recognition and continuous improvement
+1. 📋 **Paid Media Auditor** - Kapsamlı hesap değerlendirmesi
+2. 📡 **Tracking & Measurement Specialist** - Dönüşüm takibi doğruluğunu kontrol et
+3. 💰 **PPC Campaign Strategist** - Hesap mimarisini yeniden tasarla
+4. 🔍 **Search Query Analyst** - Arama terimlerinden israf edilen harcamayı temizle
+5. ✍️ **Ad Creative Strategist** - Tüm reklam metinlerini ve uzantıları yenile
+6. 📊 **Analytics Reporter** (Destek Bölümü) - Raporlama panelleri oluştur
 
----
-
-## 🎁 What Makes This Special?
-
-### Unlike Generic AI Prompts:
-- ❌ Generic "Act as a developer" prompts
-- ✅ Deep specialization with personality and process
-
-### Unlike Prompt Libraries:
-- ❌ One-off prompt collections
-- ✅ Comprehensive agent systems with workflows and deliverables
-
-### Unlike AI Tools:
-- ❌ Black box tools you can't customize
-- ✅ Transparent, forkable, adaptable agent personalities
+**Sonuç**: İlk 30 gün içinde takip doğrulanmış, israf ortadan kaldırılmış, yapı optimize edilmiş ve kreatifler yenilenmiş sistematik hesap devralma.
 
 ---
 
-## 🎨 Agent Personality Highlights
+### Senaryo 4: Tam Ajans Ürün Keşfi
 
-> "I don't just test your code - I default to finding 3-5 issues and require visual proof for everything."
+**Takımınız**: 8 bölümün tamamı tek bir misyonda paralel çalışıyor.
+
+**[Nexus Uzamsal Keşif Çalışması](examples/nexus-spatial-discovery.md)**'na bakın -- 8 agent'ın (Product Trend Researcher, Backend Architect, Brand Guardian, Growth Hacker, Support Responder, UX Researcher, Project Shepherd ve XR Interface Architect) bir yazılım fırsatını değerlendirmek ve pazar doğrulama, teknik mimari, marka stratejisi, pazara giriş, destek sistemleri, UX araştırması, proje yürütme ve uzamsal UI tasarımını kapsayan birleşik bir ürün planı üretmek için eş zamanlı olarak dağıtıldığı eksiksiz bir örnek.
+
+**Sonuç**: Tek bir oturumda üretilen kapsamlı, çapraz fonksiyonel ürün planı. [Daha fazla örnek](examples/).
+
+---
+
+## 🤝 Katkıda Bulunma
+
+Katkılarınızı bekliyoruz! İşte nasıl yardımcı olabilirsiniz:
+
+### Yeni Agent Ekleme
+
+1. Repoyu fork'layın
+2. Uygun kategoride yeni bir agent dosyası oluşturun
+3. Agent şablon yapısını takip edin:
+   - name, description, color içeren frontmatter
+   - Kimlik ve Hafıza bölümü
+   - Temel Misyon
+   - Kritik Kurallar (alana özel)
+   - Örneklerle Teknik Çıktılar
+   - İş Akışı Süreci
+   - Başarı Metrikleri
+4. Agent'ınızla bir PR gönderin
+
+### Mevcut Agent'ları İyileştirme
+
+- Gerçek dünya örnekleri ekleyin
+- Kod örneklerini geliştirin
+- Başarı metriklerini güncelleyin
+- İş akışlarını iyileştirin
+
+### Başarı Hikayelerinizi Paylaşın
+
+Bu agent'ları başarıyla kullandınız mı? Hikayenizi [Tartışmalar](https://github.com/msitarzewski/agency-agents/discussions)'da paylaşın!
+
+---
+
+## 📖 Agent Tasarım Felsefesi
+
+Her agent şu ilkelerle tasarlanmıştır:
+
+1. **🎭 Güçlü Kişilik**: Jenerik şablonlar değil - gerçek karakter ve ses
+2. **📋 Net Çıktılar**: Belirsiz rehberlik değil, somut çıktılar
+3. **✅ Başarı Metrikleri**: Ölçülebilir sonuçlar ve kalite standartları
+4. **🔄 Kanıtlanmış İş Akışları**: İşe yarayan adım adım süreçler
+5. **💡 Öğrenme Hafızası**: Örüntü tanıma ve sürekli iyileştirme
+
+---
+
+## 🎁 Bunu Özel Kılan Ne?
+
+### Jenerik AI Prompt'larının Aksine:
+- ❌ Jenerik "Bir geliştirici gibi davran" prompt'ları
+- ✅ Kişilik ve süreçle derin uzmanlaşma
+
+### Prompt Kütüphanelerinin Aksine:
+- ❌ Tek seferlik prompt koleksiyonları
+- ✅ İş akışları ve çıktılarla kapsamlı agent sistemleri
+
+### AI Araçlarının Aksine:
+- ❌ Özelleştiremediğiniz kara kutu araçlar
+- ✅ Şeffaf, fork'lanabilir, uyarlanabilir agent kişilikleri
+
+---
+
+## 🎨 Agent Kişilik Öne Çıkanları
+
+> "Sadece kodunuzu test etmiyorum - varsayılan olarak 3-5 sorun buluyorum ve her şey için görsel kanıt istiyorum."
 >
-> -- **Evidence Collector** (Testing Division)
+> -- **Evidence Collector** (Test Bölümü)
 
-> "You're not marketing on Reddit - you're becoming a valued community member who happens to represent a brand."
+> "Reddit'te pazarlama yapmıyorsunuz - bir markayı temsil eden değerli bir topluluk üyesi oluyorsunuz."
 >
-> -- **Reddit Community Builder** (Marketing Division)
+> -- **Reddit Community Builder** (Pazarlama Bölümü)
 
-> "Every playful element must serve a functional or emotional purpose. Design delight that enhances rather than distracts."
+> "Her eğlenceli öğe işlevsel veya duygusal bir amaca hizmet etmelidir. Dikkat dağıtmak yerine geliştiren bir keyif tasarlayın."
 >
-> -- **Whimsy Injector** (Design Division)
+> -- **Whimsy Injector** (Tasarım Bölümü)
 
-> "Let me add a celebration animation that reduces task completion anxiety by 40%"
+> "Görev tamamlama kaygısını %40 azaltan bir kutlama animasyonu ekleyeyim"
 >
-> -- **Whimsy Injector** (during a UX review)
+> -- **Whimsy Injector** (bir UX incelemesi sırasında)
 
 ---
 
-## 📊 Stats
+## 📊 İstatistikler
 
-- 🎭 **144 Specialized Agents** across 12 divisions
-- 📝 **10,000+ lines** of personality, process, and code examples
-- ⏱️ **Months of iteration** from real-world usage
-- 🌟 **Battle-tested** in production environments
-- 💬 **50+ requests** in first 12 hours on Reddit
-
----
-
-## 🔌 Multi-Tool Integrations
-
-The Agency works natively with Claude Code, and ships conversion + install scripts so you can use the same agents across every major agentic coding tool.
-
-### Supported Tools
-
-- **[Claude Code](https://claude.ai/code)** — native `.md` agents, no conversion needed → `~/.claude/agents/`
-- **[GitHub Copilot](https://github.com/copilot)** — native `.md` agents, no conversion needed → `~/.github/agents/` + `~/.copilot/agents/`
-- **[Antigravity](https://github.com/google-gemini/antigravity)** — `SKILL.md` per agent → `~/.gemini/antigravity/skills/`
-- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** — extension + `SKILL.md` files → `~/.gemini/extensions/agency-agents/`
-- **[OpenCode](https://opencode.ai)** — `.md` agent files → `.opencode/agents/`
-- **[Cursor](https://cursor.sh)** — `.mdc` rule files → `.cursor/rules/`
-- **[Aider](https://aider.chat)** — single `CONVENTIONS.md` → `./CONVENTIONS.md`
-- **[Windsurf](https://codeium.com/windsurf)** — single `.windsurfrules` → `./.windsurfrules`
-- **[OpenClaw](https://github.com/openclaw/openclaw)** — `SOUL.md` + `AGENTS.md` + `IDENTITY.md` per agent
-- **[Qwen Code](https://github.com/QwenLM/qwen-code)** — `.md` SubAgent files → `~/.qwen/agents/`
+- 🎭 12 bölümde **144 Uzmanlaşmış Agent**
+- 📝 Kişilik, süreç ve kod örnekleriyle **10.000+ satır**
+- ⏱️ Gerçek dünya kullanımından **aylarca iterasyon**
+- 🌟 Üretim ortamlarında **savaşta test edilmiş**
+- 💬 Reddit'te ilk 12 saatte **50+ istek**
 
 ---
 
-### ⚡ Quick Install
+## 🔌 Çoklu Araç Entegrasyonları
 
-**Step 1 -- Generate integration files:**
+The Agency, Claude Code ile doğal olarak çalışır ve aynı agent'ları tüm büyük agentic kodlama araçlarında kullanabilmeniz için dönüştürme + kurulum scriptleri sunar.
+
+### Desteklenen Araçlar
+
+- **[Claude Code](https://claude.ai/code)** — doğal `.md` agent'lar, dönüştürme gerekmez → `~/.claude/agents/`
+- **[GitHub Copilot](https://github.com/copilot)** — doğal `.md` agent'lar, dönüştürme gerekmez → `~/.github/agents/` + `~/.copilot/agents/`
+- **[Antigravity](https://github.com/google-gemini/antigravity)** — agent başına `SKILL.md` → `~/.gemini/antigravity/skills/`
+- **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** — uzantı + `SKILL.md` dosyaları → `~/.gemini/extensions/agency-agents/`
+- **[OpenCode](https://opencode.ai)** — `.md` agent dosyaları → `.opencode/agents/`
+- **[Cursor](https://cursor.sh)** — `.mdc` kural dosyaları → `.cursor/rules/`
+- **[Aider](https://aider.chat)** — tek `CONVENTIONS.md` → `./CONVENTIONS.md`
+- **[Windsurf](https://codeium.com/windsurf)** — tek `.windsurfrules` → `./.windsurfrules`
+- **[OpenClaw](https://github.com/openclaw/openclaw)** — agent başına `SOUL.md` + `AGENTS.md` + `IDENTITY.md`
+- **[Qwen Code](https://github.com/QwenLM/qwen-code)** — `.md` SubAgent dosyaları → `~/.qwen/agents/`
+
+---
+
+### ⚡ Hızlı Kurulum
+
+**Adım 1 -- Entegrasyon dosyalarını oluşturun:**
 ```bash
 ./scripts/convert.sh
 ```
 
-**Step 2 -- Install (interactive, auto-detects your tools):**
+**Adım 2 -- Kurulum (etkileşimli, araçlarınızı otomatik algılar):**
 ```bash
 ./scripts/install.sh
 ```
 
-The installer scans your system for installed tools, shows a checkbox UI, and lets you pick exactly what to install:
+Kurulum programı sisteminizi yüklü araçlar için tarar, bir onay kutusu arayüzü gösterir ve tam olarak neyi kuracağınızı seçmenize olanak tanır:
 
 ```
   +------------------------------------------------+
-  |   The Agency -- Tool Installer                 |
+  |   The Agency -- Araç Kurulumu                   |
   +------------------------------------------------+
 
-  System scan: [*] = detected on this machine
+  Sistem taraması: [*] = bu makinede algılandı
 
   [x]  1)  [*]  Claude Code     (claude.ai/code)
   [x]  2)  [*]  Copilot         (~/.github + ~/.copilot)
   [x]  3)  [*]  Antigravity     (~/.gemini/antigravity)
-  [ ]  4)  [ ]  Gemini CLI      (gemini extension)
+  [ ]  4)  [ ]  Gemini CLI      (gemini uzantısı)
   [ ]  5)  [ ]  OpenCode        (opencode.ai)
   [ ]  6)  [ ]  OpenClaw        (~/.openclaw)
   [x]  7)  [*]  Cursor          (.cursor/rules)
@@ -531,11 +531,11 @@ The installer scans your system for installed tools, shows a checkbox UI, and le
   [ ]  9)  [ ]  Windsurf        (.windsurfrules)
   [ ] 10)  [ ]  Qwen Code       (~/.qwen/agents)
 
-  [1-10] toggle   [a] all   [n] none   [d] detected
-  [Enter] install   [q] quit
+  [1-10] değiştir   [a] tümü   [n] hiçbiri   [d] algılananlar
+  [Enter] kur   [q] çık
 ```
 
-**Or install a specific tool directly:**
+**Veya doğrudan belirli bir aracı kurun:**
 ```bash
 ./scripts/install.sh --tool cursor
 ./scripts/install.sh --tool opencode
@@ -543,277 +543,277 @@ The installer scans your system for installed tools, shows a checkbox UI, and le
 ./scripts/install.sh --tool antigravity
 ```
 
-**Non-interactive (CI/scripts):**
+**Etkileşimsiz (CI/scriptler):**
 ```bash
 ./scripts/install.sh --no-interactive --tool all
 ```
 
 ---
 
-### Tool-Specific Instructions
+### Araca Özel Talimatlar
 
 <details>
 <summary><strong>Claude Code</strong></summary>
 
-Agents are copied directly from the repo into `~/.claude/agents/` -- no conversion needed.
+Agent'lar doğrudan repodan `~/.claude/agents/` dizinine kopyalanır -- dönüştürme gerekmez.
 
 ```bash
 ./scripts/install.sh --tool claude-code
 ```
 
-Then activate in Claude Code:
+Ardından Claude Code'da etkinleştirin:
 ```
-Use the Frontend Developer agent to review this component.
+Frontend Developer agent'ını kullanarak bu bileşeni incele.
 ```
 
-See [integrations/claude-code/README.md](integrations/claude-code/README.md) for details.
+Ayrıntılar için [integrations/claude-code/README.md](integrations/claude-code/README.md) dosyasına bakın.
 </details>
 
 <details>
 <summary><strong>GitHub Copilot</strong></summary>
 
-Agents are copied directly from the repo into `~/.github/agents/` and `~/.copilot/agents/` -- no conversion needed.
+Agent'lar doğrudan repodan `~/.github/agents/` ve `~/.copilot/agents/` dizinlerine kopyalanır -- dönüştürme gerekmez.
 
 ```bash
 ./scripts/install.sh --tool copilot
 ```
 
-Then activate in GitHub Copilot:
+Ardından GitHub Copilot'ta etkinleştirin:
 ```
-Use the Frontend Developer agent to review this component.
+Frontend Developer agent'ını kullanarak bu bileşeni incele.
 ```
 
-See [integrations/github-copilot/README.md](integrations/github-copilot/README.md) for details.
+Ayrıntılar için [integrations/github-copilot/README.md](integrations/github-copilot/README.md) dosyasına bakın.
 </details>
 
 <details>
 <summary><strong>Antigravity (Gemini)</strong></summary>
 
-Each agent becomes a skill in `~/.gemini/antigravity/skills/agency-<slug>/`.
+Her agent `~/.gemini/antigravity/skills/agency-<slug>/` dizininde bir beceriye dönüşür.
 
 ```bash
 ./scripts/install.sh --tool antigravity
 ```
 
-Activate in Gemini with Antigravity:
+Antigravity ile Gemini'de etkinleştirin:
 ```
-@agency-frontend-developer review this React component
+@agency-frontend-developer bu React bileşenini incele
 ```
 
-See [integrations/antigravity/README.md](integrations/antigravity/README.md) for details.
+Ayrıntılar için [integrations/antigravity/README.md](integrations/antigravity/README.md) dosyasına bakın.
 </details>
 
 <details>
 <summary><strong>Gemini CLI</strong></summary>
 
-Installs as a Gemini CLI extension with one skill per agent plus a manifest.
-On a fresh clone, generate the Gemini extension files before running the installer.
+Agent başına bir beceri ve bir manifest ile Gemini CLI uzantısı olarak kurulur.
+Yeni bir klonda, kurulum programını çalıştırmadan önce Gemini uzantı dosyalarını oluşturun.
 
 ```bash
 ./scripts/convert.sh --tool gemini-cli
 ./scripts/install.sh --tool gemini-cli
 ```
 
-See [integrations/gemini-cli/README.md](integrations/gemini-cli/README.md) for details.
+Ayrıntılar için [integrations/gemini-cli/README.md](integrations/gemini-cli/README.md) dosyasına bakın.
 </details>
 
 <details>
 <summary><strong>OpenCode</strong></summary>
 
-Agents are placed in `.opencode/agents/` in your project root (project-scoped).
+Agent'lar proje kök dizininizde `.opencode/agents/` klasörüne yerleştirilir (proje kapsamlı).
 
 ```bash
 cd /your/project
 /path/to/agency-agents/scripts/install.sh --tool opencode
 ```
 
-Or install globally:
+Veya global olarak kurun:
 ```bash
 mkdir -p ~/.config/opencode/agents
 cp integrations/opencode/agents/*.md ~/.config/opencode/agents/
 ```
 
-Activate in OpenCode:
+OpenCode'da etkinleştirin:
 ```
-@backend-architect design this API.
+@backend-architect bu API'yi tasarla.
 ```
 
-See [integrations/opencode/README.md](integrations/opencode/README.md) for details.
+Ayrıntılar için [integrations/opencode/README.md](integrations/opencode/README.md) dosyasına bakın.
 </details>
 
 <details>
 <summary><strong>Cursor</strong></summary>
 
-Each agent becomes a `.mdc` rule file in `.cursor/rules/` of your project.
+Her agent projenizin `.cursor/rules/` dizininde bir `.mdc` kural dosyasına dönüşür.
 
 ```bash
 cd /your/project
 /path/to/agency-agents/scripts/install.sh --tool cursor
 ```
 
-Rules are auto-applied when Cursor detects them in the project. Reference them explicitly:
+Kurallar, Cursor bunları projede algıladığında otomatik olarak uygulanır. Açıkça referans verin:
 ```
-Use the @security-engineer rules to review this code.
+Bu kodu incelemek için @security-engineer kurallarını kullan.
 ```
 
-See [integrations/cursor/README.md](integrations/cursor/README.md) for details.
+Ayrıntılar için [integrations/cursor/README.md](integrations/cursor/README.md) dosyasına bakın.
 </details>
 
 <details>
 <summary><strong>Aider</strong></summary>
 
-All agents are compiled into a single `CONVENTIONS.md` file that Aider reads automatically.
+Tüm agent'lar, Aider'ın otomatik olarak okuduğu tek bir `CONVENTIONS.md` dosyasına derlenir.
 
 ```bash
 cd /your/project
 /path/to/agency-agents/scripts/install.sh --tool aider
 ```
 
-Then reference agents in your Aider session:
+Ardından Aider oturumunuzda agent'lara referans verin:
 ```
-Use the Frontend Developer agent to refactor this component.
+Bu bileşeni yeniden düzenlemek için Frontend Developer agent'ını kullan.
 ```
 
-See [integrations/aider/README.md](integrations/aider/README.md) for details.
+Ayrıntılar için [integrations/aider/README.md](integrations/aider/README.md) dosyasına bakın.
 </details>
 
 <details>
 <summary><strong>Windsurf</strong></summary>
 
-All agents are compiled into `.windsurfrules` in your project root.
+Tüm agent'lar proje kök dizininizde `.windsurfrules` dosyasına derlenir.
 
 ```bash
 cd /your/project
 /path/to/agency-agents/scripts/install.sh --tool windsurf
 ```
 
-Reference agents in Windsurf's Cascade:
+Windsurf'un Cascade'inde agent'lara referans verin:
 ```
-Use the Reality Checker agent to verify this is production ready.
+Bunun üretime hazır olduğunu doğrulamak için Reality Checker agent'ını kullan.
 ```
 
-See [integrations/windsurf/README.md](integrations/windsurf/README.md) for details.
+Ayrıntılar için [integrations/windsurf/README.md](integrations/windsurf/README.md) dosyasına bakın.
 </details>
 
 <details>
 <summary><strong>OpenClaw</strong></summary>
 
-Each agent becomes a workspace with `SOUL.md`, `AGENTS.md`, and `IDENTITY.md` in `~/.openclaw/agency-agents/`.
+Her agent `~/.openclaw/agency-agents/` dizininde `SOUL.md`, `AGENTS.md` ve `IDENTITY.md` içeren bir çalışma alanına dönüşür.
 
 ```bash
 ./scripts/install.sh --tool openclaw
 ```
 
-Agents are registered and available by `agentId` in OpenClaw sessions.
+Agent'lar OpenClaw oturumlarında `agentId` ile kayıtlı ve kullanılabilir durumdadır.
 
-See [integrations/openclaw/README.md](integrations/openclaw/README.md) for details.
+Ayrıntılar için [integrations/openclaw/README.md](integrations/openclaw/README.md) dosyasına bakın.
 
 </details>
 
 <details>
 <summary><strong>Qwen Code</strong></summary>
 
-SubAgents are installed to `.qwen/agents/` in your project root (project-scoped).
+SubAgent'lar proje kök dizininizde `.qwen/agents/` klasörüne kurulur (proje kapsamlı).
 
 ```bash
-# Convert and install (run from your project root)
+# Dönüştür ve kur (proje kök dizininizden çalıştırın)
 cd /your/project
 ./scripts/convert.sh --tool qwen
 ./scripts/install.sh --tool qwen
 ```
 
-**Usage in Qwen Code:**
-- Reference by name: `Use the frontend-developer agent to review this component`
-- Or let Qwen auto-delegate based on task context
-- Manage via `/agents` command in interactive mode
+**Qwen Code'da Kullanım:**
+- İsimle referans verin: `Bu bileşeni incelemek için frontend-developer agent'ını kullan`
+- Veya Qwen'in görev bağlamına göre otomatik yönlendirmesine izin verin
+- Etkileşimli modda `/agents` komutuyla yönetin
 
-> 📚 [Qwen SubAgents Docs](https://qwenlm.github.io/qwen-code-docs/en/users/features/sub-agents/)
+> 📚 [Qwen SubAgents Dokümantasyonu](https://qwenlm.github.io/qwen-code-docs/en/users/features/sub-agents/)
 
 </details>
 
 ---
 
-### Regenerating After Changes
+### Değişikliklerden Sonra Yeniden Oluşturma
 
-When you add new agents or edit existing ones, regenerate all integration files:
+Yeni agent'lar eklediğinizde veya mevcut olanları düzenlediğinizde, tüm entegrasyon dosyalarını yeniden oluşturun:
 
 ```bash
-./scripts/convert.sh        # regenerate all
-./scripts/convert.sh --tool cursor   # regenerate just one tool
+./scripts/convert.sh        # tümünü yeniden oluştur
+./scripts/convert.sh --tool cursor   # sadece bir aracı yeniden oluştur
 ```
 
 ---
 
-## 🗺️ Roadmap
+## 🗺️ Yol Haritası
 
-- [ ] Interactive agent selector web tool
-- [x] Multi-agent workflow examples -- see [examples/](examples/)
-- [x] Multi-tool integration scripts (Claude Code, GitHub Copilot, Antigravity, Gemini CLI, OpenCode, OpenClaw, Cursor, Aider, Windsurf, Qwen Code)
-- [ ] Video tutorials on agent design
-- [ ] Community agent marketplace
-- [ ] Agent "personality quiz" for project matching
-- [ ] "Agent of the Week" showcase series
-
----
-
-## 🌐 Community Translations & Localizations
-
-Community-maintained translations and regional adaptations. These are independently maintained -- see each repo for coverage and version compatibility.
-
-| Language | Maintainer | Link | Notes |
-|----------|-----------|------|-------|
-| 🇨🇳 简体中文 (zh-CN) | [@jnMetaCode](https://github.com/jnMetaCode) | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 100 translated agents + 9 China-market originals |
-| 🇨🇳 简体中文 (zh-CN) | [@dsclca12](https://github.com/dsclca12) | [agent-teams](https://github.com/dsclca12/agent-teams) | Independent translation with Bilibili, WeChat, Xiaohongshu localization |
-
-Want to add a translation? Open an issue and we'll link it here.
+- [ ] Etkileşimli agent seçici web aracı
+- [x] Çoklu agent iş akışı örnekleri -- [examples/](examples/) dizinine bakın
+- [x] Çoklu araç entegrasyon scriptleri (Claude Code, GitHub Copilot, Antigravity, Gemini CLI, OpenCode, OpenClaw, Cursor, Aider, Windsurf, Qwen Code)
+- [ ] Agent tasarımı video eğitimleri
+- [ ] Topluluk agent pazaryeri
+- [ ] Proje eşleştirme için agent "kişilik testi"
+- [ ] "Haftanın Agent'ı" vitrin serisi
 
 ---
 
-## 🔗 Related Resources
+## 🌐 Topluluk Çevirileri ve Yerelleştirmeler
 
-- [awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) — Community-maintained OpenClaw agent collection (derived from this repo)
+Topluluk tarafından sürdürülen çeviriler ve bölgesel uyarlamalar. Bunlar bağımsız olarak sürdürülmektedir -- kapsam ve sürüm uyumluluğu için her repoya bakın.
 
----
+| Dil | Sorumlu | Bağlantı | Notlar |
+|-----|---------|----------|--------|
+| 🇨🇳 简体中文 (zh-CN) | [@jnMetaCode](https://github.com/jnMetaCode) | [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh) | 100 çevrilmiş agent + 9 Çin pazarı orijinali |
+| 🇨🇳 简体中文 (zh-CN) | [@dsclca12](https://github.com/dsclca12) | [agent-teams](https://github.com/dsclca12/agent-teams) | Bilibili, WeChat, Xiaohongshu yerelleştirmesiyle bağımsız çeviri |
 
-## 📜 License
-
-MIT License - Use freely, commercially or personally. Attribution appreciated but not required.
-
----
-
-## 🙏 Acknowledgments
-
-Born from a Reddit discussion about AI agent specialization. Thanks to the community for the feedback, requests, and inspiration.
-
-Special recognition to the 50+ Redditors who requested this within the first 12 hours - you proved there's demand for real, specialized AI agent systems.
+Çeviri eklemek mi istiyorsunuz? Bir issue açın, buraya bağlantısını ekleyelim.
 
 ---
 
-## 💬 Community
+## 🔗 İlgili Kaynaklar
 
-- **GitHub Discussions**: [Share your success stories](https://github.com/msitarzewski/agency-agents/discussions)
-- **Issues**: [Report bugs or request features](https://github.com/msitarzewski/agency-agents/issues)
-- **Reddit**: Join the conversation on r/ClaudeAI
-- **Twitter/X**: Share with #TheAgency
+- [awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) — Topluluk tarafından sürdürülen OpenClaw agent koleksiyonu (bu repodan türetilmiştir)
 
 ---
 
-## 🚀 Get Started
+## 📜 Lisans
 
-1. **Browse** the agents above and find specialists for your needs
-2. **Copy** the agents to `~/.claude/agents/` for Claude Code integration
-3. **Activate** agents by referencing them in your Claude conversations
-4. **Customize** agent personalities and workflows for your specific needs
-5. **Share** your results and contribute back to the community
+MIT Lisansı - Ticari veya kişisel olarak özgürce kullanın. Atıf takdir edilir ancak zorunlu değildir.
+
+---
+
+## 🙏 Teşekkürler
+
+AI agent uzmanlaşması hakkında bir Reddit tartışmasından doğdu. Geri bildirimler, istekler ve ilham için topluluğa teşekkürler.
+
+İlk 12 saatte bunu talep eden 50'den fazla Reddit kullanıcısına özel teşekkürler - gerçek, uzmanlaşmış AI agent sistemlerine talep olduğunu kanıtladınız.
+
+---
+
+## 💬 Topluluk
+
+- **GitHub Tartışmaları**: [Başarı hikayelerinizi paylaşın](https://github.com/msitarzewski/agency-agents/discussions)
+- **Sorunlar**: [Hata bildirin veya özellik isteyin](https://github.com/msitarzewski/agency-agents/issues)
+- **Reddit**: r/ClaudeAI'da sohbete katılın
+- **Twitter/X**: #TheAgency ile paylaşın
+
+---
+
+## 🚀 Başlayın
+
+1. Yukarıdaki agent'lara **göz atın** ve ihtiyaçlarınız için uzmanları bulun
+2. Claude Code entegrasyonu için agent'ları `~/.claude/agents/` dizinine **kopyalayın**
+3. Claude konuşmalarınızda referans vererek agent'ları **etkinleştirin**
+4. Agent kişiliklerini ve iş akışlarını özel ihtiyaçlarınıza göre **özelleştirin**
+5. Sonuçlarınızı **paylaşın** ve topluluğa katkıda bulunun
 
 ---
 
 <div align="center">
 
-**🎭 The Agency: Your AI Dream Team Awaits 🎭**
+**🎭 The Agency: Yapay Zeka Hayalinizdeki Takım Sizi Bekliyor 🎭**
 
-[⭐ Star this repo](https://github.com/msitarzewski/agency-agents) • [🍴 Fork it](https://github.com/msitarzewski/agency-agents/fork) • [🐛 Report an issue](https://github.com/msitarzewski/agency-agents/issues) • [❤️ Sponsor](https://github.com/sponsors/msitarzewski)
+[⭐ Yıldız verin](https://github.com/msitarzewski/agency-agents) • [🍴 Fork'layın](https://github.com/msitarzewski/agency-agents/fork) • [🐛 Sorun bildirin](https://github.com/msitarzewski/agency-agents/issues) • [❤️ Sponsor olun](https://github.com/sponsors/msitarzewski)
 
-Made with ❤️ by the community, for the community
+Topluluk tarafından, topluluk için ❤️ ile yapılmıştır
 
 </div>
